@@ -37,13 +37,14 @@ public class TotalAvg {
 		avgc=totalc/c.length;
 		System.out.println("Result of Student 1: Total="+totala+" Average="+avga);
 		System.out.println("Result of Student 2: Total="+totalb+" Average="+avgb);
-		System.out.println("Result of C Student 3: Total="+totalc+" Average="+avgc);
-	    int resa=(a[0]+b[0]+c[0])/3;
-	    int resb=(a[1]+b[1]+c[1])/3;
-	    int resc=(a[2]+b[2]+c[2])/3;
-	    System.out.println("Average of students in subject A "+resa);
-	    System.out.println("Average of students in subject B "+resb);
-	    System.out.println("Average of students in subject C "+resc);
+		System.out.println("Result of Student 3: Total="+totalc+" Average="+avgc);
+	    int count=0;
+		for(int i=0;i<a.length;i++)
+		{
+			int res=0;
+			 res=(a[i]+b[i]+c[i])/3;
+			 System.out.println("Average of students in subject "+ ++count+" is "+res);
+		}
 	    
 	    
 	    
