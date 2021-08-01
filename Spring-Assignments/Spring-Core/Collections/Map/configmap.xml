@@ -21,9 +21,9 @@
   
   <property name="answers">
   <map>
-  <entry key="7" value="hi world"/>
-  <entry key="9" value="bye bye"/>
-  <entry key="2" value="how are you"/>
+  <entry key="10" value="hello"/>
+  <entry key="9" value="hi"/>
+  <entry key="5" value="bye"/>
   
   </map>
   </property>
