@@ -1,0 +1,11 @@
+div{
+    display:block;
+    
+    border:solid;
+}
+.tr1 td{
+    font-weight: bold;
+}
+div table{
+    border: black;
+}

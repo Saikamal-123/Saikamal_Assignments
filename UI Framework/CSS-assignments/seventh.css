@@ -1,0 +1,26 @@
+.div3{
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding-left:-10px;
+    padding-right:-10px;
+    
+    display:block;
+   
+    border:1px solid red;
+}
+span{
+    font-weight: bold;
+}
+div{
+   padding:10px;
+    display:block;
+    border:solid;
+
+}
+.div2{
+    
+    display:block;
+     
+    
+    border:5px dotted green;
+}

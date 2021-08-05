@@ -1,0 +1,13 @@
+div{
+    display:block;
+    
+    border:solid;
+}
+.tr1 td{
+    background-color: green;
+    color: white;
+    font-family: Arial;
+}
+div table{
+    border: 1px solid green;
+}
