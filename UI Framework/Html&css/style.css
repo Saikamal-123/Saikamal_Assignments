@@ -1,0 +1,40 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family:Century Gathic;
+}
+header{
+    background-image:url(img.jpg);
+    height:100vh;
+   
+    
+}
+.title{
+    position:absolute;
+    top:50%;
+    Left:50%;
+    transform:translate(-50%,-50%);
+}
+.main{
+    max-width:1200px;
+    margin:auto;
+}
+h1{
+text-align:center;
+}
+ul{
+    float:right;
+    List-style-type:none;
+    margin-top:20px;
+}
+ul li{
+    display:inline-block;
+}
+ul li a{
+    color:white;
+    border:1px solid white;
+    padding: 5px 30px;
+    background-color:white;
+    color:black;
+}

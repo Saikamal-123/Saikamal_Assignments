@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.form{
+    margin-left: 200px;
+    margin-right:200px;
+    background-color: lightblue;
+    text-align: center;
+    border-style: groove;
+}
+header{
+    float:right;
+    margin-left: 90px;
+}
+a{
+    color:white;
+    border:1px solid black;
+    padding: 5px 20px;
+    background-color:white;
+    color:black;
+}
+body{
+    background-color:lightyellow;
+    }
+.par{
+    margin-left:-200px;
+}
+text{
+    margin-left: 300px;
+}
