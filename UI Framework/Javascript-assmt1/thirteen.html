@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Javascript sixth</title>
+    </head>
+    <body>
+        <script>
+            
+          function forfunc(i)
+          {
+            var sumf=0;
+              for(j=1;j<=i;j++)
+              {
+                 sumf=sumf+j;    
+              }
+              document.writeln("<br>");
+              document.writeln("For loop sum "+sumf);
+              document.writeln("<br>");
+          }
+          function whilefunc(i)
+          {
+              var sumw=0;
+              var j=1
+              while(j<=i)
+              {
+                 sumw=sumw+j;   
+                 j++ 
+              }
+              document.writeln("<br>");
+              document.writeln("while loop sum "+sumw);
+              document.writeln("<br>");
+          }
+          function dowhilefunc(i)
+          {
+              var sumd=0;
+              var j=1
+              while(j<=i)
+              {
+                 sumd=sumd+j;   
+                 j++ 
+              }
+              document.writeln("<br>");
+              document.writeln("do while loop sum "+sumd);
+              document.writeln("<br>");
+          }
+          var n=parseInt(prompt("enter a number"));
+           forfunc(n);
+           whilefunc(n);
+           dowhilefunc(n);
+           
+        </script>
+    </body>
+</html>
