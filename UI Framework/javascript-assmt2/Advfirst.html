@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>AdvanceFirst</title>
+    </head>
+    <body>
+        <script>
+           var arr=[1,2,3,4,5];
+           function isEven(i){
+                    if(i%2==0)
+                    {
+                        return true;
+                    }
+                    else{
+                        return false;
+                    }
+
+                }
+                function find(arr,isEven)
+                {
+                    let a=arr.shift();
+                        if(isEven(a))
+                        {
+                            return a;
+                        }
+                        else{
+                            find(arr,isEven)
+                        }
+                        
+                        
+                    }
+                
+                document.write(find(arr,isEven));
+               
+
+            
+            
+        </script>
+    </body>
+</html>
